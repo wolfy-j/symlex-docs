@@ -13,7 +13,7 @@ Symlex REST controllers use a naming scheme similar to FOSRestBundle's *implicit
         public function cgetAction(Request $request)
         {} // [GET] /users
     
-        public function coptionsAction(Request $request)
+        public function optionsAction(Request $request)
         {} // [OPTIONS] /users
         
         public function postAction(Request $request)
